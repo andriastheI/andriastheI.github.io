@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0; 
@@ -28,9 +29,14 @@ nav{
 nav img{
     width: 80px;
 }
+
+
 .nav-links{
     flex: 1;
     text-align: right;
+}
+.nav-links input{
+    display: none;
 }
 .nav-links ul li{
     list-style: none;
@@ -91,6 +97,11 @@ nav img{
     transition: 1s;
 }
 
+nav .fa{
+    display: none;
+}
+
+
 @media (max-width: 768px){
     .text-box h1{
         font-size: 16px;
@@ -102,10 +113,26 @@ nav img{
         font-size: 7px;
     }
     .nav-links ul li{
-    padding: 8px 5px;
+        display: block;
     }
-    .nav-links ul li a{
-        font-size: 7px;
+    .nav-links{
+        position: absolute;
+        background:#410746;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        display: none;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
     }
 
 }

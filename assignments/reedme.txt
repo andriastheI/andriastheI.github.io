@@ -1,0 +1,10 @@
+index.html file 
+that is valid and correct 
+but the footer should be done2
+
+
+footer - use this 
+some burbage or a link 
+copyright 
+figma picture
+add another "folder" figam footer and add all the files index

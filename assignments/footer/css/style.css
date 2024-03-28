@@ -15,7 +15,7 @@ body{
 
 footer{
     height: 100%;
-    background-color: rgb(113, 40, 142);
+    background-color: #71288E;
 }
 
 .footer-containter{
@@ -40,7 +40,7 @@ footer{
 }
 
 .social-icons a:hover{
-    background-color: rgb(113, 40, 142);
+    background-color: #71288E;
     transition: 0.5s;
 }
 .social-icons a i:hover{

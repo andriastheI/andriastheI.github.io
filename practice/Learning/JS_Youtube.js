@@ -36,7 +36,7 @@ c--; //decrement(decrease by one)
 // .length to a variable will return the length of the string 
 // [i] indexing is the same as python it starts at 0
 
-
+// a fun
 function wordPuzzle(verb,adjective,noun) {
     var result = "";
     result += "The " + noun + " is " + verb + "ing " + adjective + ".";

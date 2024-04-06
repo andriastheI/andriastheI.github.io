@@ -51,7 +51,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 17px; 
+    font-size: 1rem; 
 }
 .nav-links ul li::after{
     content: '';
@@ -76,11 +76,11 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 3.5rem;
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #fff;
 }
 .hero-btn{
@@ -89,7 +89,7 @@ nav img{
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 0.8rem;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -107,13 +107,13 @@ nav .fa{
 
 @media (max-width: 768px){
     .text-box h1{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .text-box p{
-        font-size: 9px;
+        font-size: 0.5rem;
     }
     .hero-btn{
-        font-size: 7px;
+        font-size: 0.4rem;
     }
     .nav-links ul li{
         display: block;
@@ -121,7 +121,7 @@ nav .fa{
     .nav-links{
         position: absolute;
         background:#410746;
-        height: 100vh;
+        height: 1000px;
         width: 200px;
         top: 0;
         right: 0;
@@ -133,7 +133,7 @@ nav .fa{
     nav .fa{
         display: block;
         color: #fff;
-        font-size: 22px;
+        font-size: 1.3rem;
         margin: 10px;
         cursor: pointer;
     }
@@ -183,7 +183,7 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 700px){
+@media (max-width: 768px){
     .row{
         flex-direction: column;
     }

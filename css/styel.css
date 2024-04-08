@@ -1,4 +1,6 @@
-/* font should be in rem */
+/* font should be in rem 
+TODO: Adjust the font-size to rem not pixcels 
+*/
 
 *{
     margin: 0;

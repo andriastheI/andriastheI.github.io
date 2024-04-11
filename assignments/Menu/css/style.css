@@ -115,6 +115,13 @@ nav .fa {
   }
   .nav-links ul li {
     display: block;
+    transition: 0.2s;
+  }
+  .nav-links ul li:hover {
+    border-left: 6px solid #330bd4;
+  }
+  .nav-links ul li::after {
+    display: none;
   }
   .nav-links {
     position: absolute;

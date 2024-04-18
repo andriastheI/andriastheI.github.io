@@ -175,6 +175,11 @@ h1 {
   box-sizing: border-box;
   transition: 0.5s;
 }
+.option-row a{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
 .second-row .option-row {
   flex-basis: 30%;
   background-color: #f7f4ee;
@@ -283,7 +288,16 @@ footer {
   color: #410746;
   opacity: 0.9;
 }
-
+.social-icons a.facebook i {
+  font-size: 1.5em;
+  color: #330bd4;
+  opacity: 0.9;
+}
+.social-icons a.youtube i {
+  font-size: 1.5em;
+  color: #b00;
+  opacity: 0.9;
+}
 .social-icons a:hover {
   background-color: #71288e;
   transition: 0.5s;
@@ -292,12 +306,24 @@ footer {
   color: #fff;
   transition: 0.5s;
 }
+.social-icons a.facebook i:hover {
+  color: #330bd4;
+  transition: 0.5s;
+}
+.social-icons a.youtube i:hover {
+  color: #b00;
+  transition: 0.5s;
+}
+.social-icons a.threads i:hover {
+  color: #000;
+  transition: 0.5s;
+}
 .footer-bottom {
   padding-top: 30px;
   text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .row {
     flex-direction: column;
   }

@@ -1,5 +1,7 @@
 /* font should be in rem 
-TODO: Adjust the font-size to rem not pixcels 
+TODO: Adjust the font-size to rem not pixcels
+TODO: The Title must be diffrent for each page
+
 */
 
 * {
@@ -337,4 +339,27 @@ footer {
   .campus-col {
     margin-top: 20px;
   }
+}
+/* Wifi Page */
+.wifi-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.wifi-video {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Moodle Page */
+
+.moodle-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.moodle-video {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
 }

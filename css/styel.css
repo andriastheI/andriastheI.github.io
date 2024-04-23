@@ -352,13 +352,23 @@ footer {
   padding: 20px;
 }
 /* Moodle Page */
-
 .moodle-help {
   display: block;
   margin: 0 auto;
   padding: 20px;
 }
 .moodle-video {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Printing Page */
+.printing-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.printing-video {
   display: block;
   margin: 0 auto;
   padding: 20px;

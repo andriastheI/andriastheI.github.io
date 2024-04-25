@@ -177,7 +177,7 @@ h1 {
 }
 .option-row {
   flex-basis: 30%;
-  background-color: #827a69;
+  background-color: #d4c7aa;
   border-radius: 40px;
   margin-bottom: 5%;
   padding: 30px 12px;
@@ -186,12 +186,12 @@ h1 {
 }
 .option-row a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
 }
 .second-row .option-row {
   flex-basis: 30%;
-  background-color: #827a69;
+  background-color: #d4c7aa;
   border-radius: 40px;
   margin-bottom: 5%;
   padding: 30px 12px;
@@ -339,6 +339,18 @@ footer {
   .campus-col {
     margin-top: 20px;
   }
+}
+/* Contact Page */
+.body-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* About Us Page */
+.about-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
 }
 /* Wifi Page */
 .wifi-help {

@@ -1,7 +1,7 @@
 /* font should be in rem 
 TODO: Adjust the font-size to rem not pixcels
 TODO: The Title must be diffrent for each page
-
+TODO: Add comments to some of the codes for a reminder
 */
 
 * {
@@ -154,10 +154,10 @@ nav .fa {
 
 .options {
   width: 90%;
-  max-width: 1200px; /* Limit width */
-  margin: auto; /* Center horizontally */
+  max-width: 1200px;
+  margin: auto;
   text-align: center;
-  padding-top: 10vh; /* Adjusted padding using viewport height units */
+  padding-top: 10vh;
 }
 
 h1 {

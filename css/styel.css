@@ -177,7 +177,7 @@ h1 {
 }
 .option-row {
   flex-basis: 30%;
-  background-color: #f7f4ee;
+  background-color: #827a69;
   border-radius: 40px;
   margin-bottom: 5%;
   padding: 30px 12px;
@@ -186,12 +186,12 @@ h1 {
 }
 .option-row a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
 }
 .second-row .option-row {
   flex-basis: 30%;
-  background-color: #f7f4ee;
+  background-color: #827a69;
   border-radius: 40px;
   margin-bottom: 5%;
   padding: 30px 12px;
@@ -204,7 +204,7 @@ h3 {
   margin: 10px 0;
 }
 .option-row:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0px rgba(67, 6, 158, 0.7);
 }
 
 @media (max-width: 700px) {
@@ -267,7 +267,7 @@ h3 {
 }
 .contents h1 {
   font-size: 30px;
-  color: #fdf;
+  color: rgb(255, 255, 255);
 }
 
 /* footer */
@@ -369,6 +369,17 @@ footer {
   padding: 20px;
 }
 .printing-video {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Employee Page */
+.employee-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.employee-video {
   display: block;
   margin: 0 auto;
   padding: 20px;

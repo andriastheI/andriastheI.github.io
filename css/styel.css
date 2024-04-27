@@ -430,3 +430,15 @@ footer {
   margin: 0 auto;
   padding: 20px;
 }
+/* General Page */
+.general-help {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.general-video {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}

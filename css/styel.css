@@ -8,7 +8,8 @@
 }
 
 body {
-  max-width: 1024px;
+  /* you have to have a width to make it center with margin auto */
+  max-width: 1024px; 
   margin: 0 auto;
 }
 
